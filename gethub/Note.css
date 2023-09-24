@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+
+*{
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+font-family: 'Tajawal', sans-serif;
+
+}
+
+body{
+
+background-color: black;
+
+padding-bottom: 100px;
+
+}
+
+
+/*-------------------------- ( النافبار ) -----------------------------------------------*/
+
+
+header{
+
+    position: fixed;
+
+    z-index: 999;
+
+    margin-top: 70vh;
+    
+    display:flex;
+    
+    justify-content:space-between;
+        
+    align-items:center;
+    
+    width:100%;   
+    
+}
+    
+.logo{
+
+    margin-bottom: 110px;   
+    
+    text-align: center;    
+        
+    font-size:3.4em;
+    
+    font-weight:900;
+    
+    text-transform:uppercase;
+
+    text-align: center;
+    
+}
+
+.logo a{
+    
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+    
+    
+    
+    .navigation{
+
+    margin: 0 auto;
+    
+    background-color: rgb(255, 255, 255);
+    
+    padding: 20px 100px;
+    
+    border-radius: 10px;
+    
+    
+    }
+    
+    
+    .navigation i{
+    
+    color: black;
+    
+    }
+    
+    
+    .navigation a{
+    
+    text-decoration:none;
+        
+    color: rgb(0, 0, 0);
+    
+    font-size: 1.5em;
+    
+    text-transform:uppercase;
+    
+    background-color: rgb(213, 213, 213);
+    
+    padding: 10px 40px;
+    
+    border-radius: 100px;
+    
+    }
+    
+    .navigation a:hover{
+    
+    color: #272727;
+        
+    }
+
+
+/*--------------------------- ( الجدول ) -------------------------------------*/
+
+
+.content{
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+flex-direction: column;
+
+flex-wrap: wrap;
+
+
+margin: 0 auto;
+
+}
+
+
+
+.project-card{
+
+    background-color: #202020;
+
+    border: 1px solid #363636;
+
+    min-height: 6em;
+
+    width: 80em;
+
+    overflow: hidden;
+
+    border-radius: 30px;
+
+    margin: 15px;
+
+}
+
+.project-info{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+
+
+.title {
+
+    
+    width: 30%;
+
+    margin: 0 auto;
+    
+    background-color:rgb(29, 29, 29);
+    
+    border-radius: 50px;
+    
+    padding: 10px 160px;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    color: #ffffff;
+    
+    font-size: 2.2em;
+    
+    font-weight: 900;
+
+    margin-top: 50px;
+
+    margin-bottom: 50px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+    
+    
+}
+
+
+.title i{
+
+    color: #fff;
+
+    background-color: #1f9b00;
+
+    padding: 10px 13px;
+
+    border-radius: 50px;
+
+}
+
+.project-card a{
+
+text-decoration: none;
+
+color: #fff;
+
+font-size: 30px;
+
+margin-right: 30px;
+
+}
+
+.project-card i{
+
+padding: 10px 13px;
+
+background-color: #c00000;
+
+border-radius: 50px;
+
+margin-left: 20px;
+
+font-size: 16px;
+
+}
+
+
+@media (max-width:414px){
+    header{
+        margin-top: 81vh;
+
+    }
+
+    .logo{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .navigation{
+        padding: 20px 10px;
+        margin-left: 34px;
+    }
+
+    .Schedule a{
+        font-size: 15px;
+        padding: 10px 16px;
+    }
+
+
+    .title{
+        max-width: 400px;
+        width: 99%;
+        padding: 10px;
+        border-radius: 100px;
+        font-size: 20px;
+        font-weight: 200;
+        
+    }
+
+    .title h2{
+        padding: 0 17px 0 17px;
+    }
+
+    .title i{
+        font-size: 20px;
+        padding: 10px 40px;
+
+    }
+
+    .project-card{
+        min-height: 2em;
+        width: 23em;
+        border-radius: 30px;
+        
+    }
+
+    .project-card a{
+        font-size: 30px; 
+    }
+
+    .project-card i{
+        padding: 5px 30px;
+        font-size: 20px;
+    }
+
+    .project-info{
+        padding: 10px;
+    }
+
+
+    .project-info h3{
+        padding: 5px;
+        font-size: 10px;
+    }
+}
